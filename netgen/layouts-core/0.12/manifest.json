@@ -1,0 +1,10 @@
+{
+    "bundles": {
+        "Netgen\\Bundle\\BlockManagerBundle\\NetgenBlockManagerBundle": ["all"],
+        "Netgen\\Bundle\\BlockManagerAdminBundle\\NetgenBlockManagerAdminBundle": ["all"],
+        "Netgen\\Bundle\\BlockManagerDebugBundle\\NetgenBlockManagerDebugBundle": ["dev", "test"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    }
+}

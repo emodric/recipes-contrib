@@ -1,0 +1,13 @@
+<bg=blue;fg=white>                                    </>
+<bg=blue;fg=white> Next: Netgen Layouts configuration </>
+<bg=blue;fg=white>                                    </>
+
+  * Enable ESI and fragments support in the <fg=green>config/packages/framework.yaml</> file.
+
+  * Edit your <fg=green>config/security.yaml</> file and include all the
+    necessary providers and access control sections.
+
+  * Import database tables by executing <fg=green>php bin/console doctrine:migrations:migrate
+    --configuration=vendor/netgen/layouts-core/migrations/doctrine.yml</> command.
+
+Documentation: https://docs.netgen.io/projects/layouts/en/latest/
