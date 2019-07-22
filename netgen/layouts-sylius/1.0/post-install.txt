@@ -1,0 +1,12 @@
+<bg=blue;fg=white>                                       </>
+<bg=blue;fg=white> Netgen Layouts & Sylius configuration </>
+<bg=blue;fg=white>                                       </>
+
+  * To properly integrate Netgen Layouts and Sylius admin interfaces, you need to
+    update admin regex parameter in your <fg=green>config/packages/security.yaml</>
+    file to include Netgen Layouts admin routes. Just replace the
+    <fg=green>sylius.security.admin_regex</> parameter with the following value:
+
+    <fg=green>^(/admin|/nglayouts/app|/nglayouts/api|/nglayouts/admin|/cb)</>
+
+Netgen Layouts documentation: <comment>https://docs.netgen.io/projects/layouts/en/latest/</>

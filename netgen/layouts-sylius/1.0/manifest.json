@@ -1,0 +1,11 @@
+{
+    "bundles": {
+        "Netgen\\Bundle\\LayoutsSyliusBundle\\NetgenLayoutsSyliusBundle": ["all"]
+    },
+    "copy-from-package": {
+        "bundle/Resources/views/shop/layout.html.twig": "templates/bundles/SyliusShopBundle/layout.html.twig"
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    }
+}
